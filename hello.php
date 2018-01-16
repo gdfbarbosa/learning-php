@@ -9,7 +9,7 @@
 <?php
 $mystring = 'qaweqewqweqabc';
 $findme   = 'a';
-$pos = strpos($mystring, $findme, 3);
+$pos = strpos($mystring, $findme, 0);
 
 // Note our use of ===.  Simply == would not work as expected
 // because the position of 'a' was the 0th (first) character.
